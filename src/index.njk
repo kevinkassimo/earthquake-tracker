@@ -1,0 +1,19 @@
+{% extends "./nunjucks/templates/default.njk" %}
+
+{% block content %}
+<div class="et__center">
+  <h1>Earthquake Tracker</h1>
+  <div class="et__container">
+    <select name="location-select" id="location-select">
+      <option value="" disabled selected>Select your option</option>
+      <option value="option">option 1</option> 
+      <option value="option 2">option 2</option>
+    </select>
+    <div id="magnitude"><span></span></div>
+    <div id="data-block">
+      <div id="geomap" class="et__map"></div>
+    </div>
+  </div>
+  <button id="refresh" class="button et__button">Refresh</button>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+.et__center {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 9vh;
+  text-align: center;
+  .et__container {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 400px;
+
+    select {
+      margin: 0;
+    }
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}

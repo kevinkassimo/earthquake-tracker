@@ -1,0 +1,21 @@
+.et__footer {
+  background-color: #157ffc;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+
+  div {
+    color: white;
+    text-align: center;
+  }
+
+  a {
+    color: white;
+    &:hover {
+      color: inherit;
+    }
+    &:visited {
+      color: inherit;
+    }
+  }
+}
