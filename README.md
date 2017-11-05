@@ -1,4 +1,7 @@
-# Flatpage Template Generator
+# MINIMAL Earthquake Tracker using DB's Flatpage Template Generator
+
+## Description  
+This is a minimal implementation of an earthquake tracker. It uses DailyBruin's flatpage-template. I do not have much time this week so I just implemented a minimal viable version (sorry for not using D3.js properly since I don't have too much freetime during the weekend)
 
 ## Getting Started
 1. Install [Yarn](https://yarnpkg.com/lang/en/docs/install/) and [gulp-cli](https://www.npmjs.com/package/gulp-cli).
